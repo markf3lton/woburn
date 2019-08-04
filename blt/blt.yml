@@ -5,7 +5,7 @@ project:
   machine_name: woburn
   # Used for enforcing correct git commit msg syntax.
   prefix: BLT
-  human_name: 'BLTed 10'
+  human_name: 'BLT Woburn'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
@@ -14,8 +14,9 @@ project:
     hostname: 'local.${project.machine_name}.com'
 # Configuration settings for new git repository.
 git:
-  default_branch: master
-  remotes: {  }
+  default_branch: develop
+  remotes:
+    - woburn@svn-6689.devcloud.hosting.acquia.com:woburn.git
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true
