@@ -1,0 +1,27 @@
+uuid: 43011b74-7518-4032-b961-0adebf4c170d
+langcode: en
+status: true
+dependencies: {  }
+id: basic_node_creator
+label: 'Basic node creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'configure any layout'
+  - 'create basic_node content'
+  - 'create url aliases'
+  - 'edit own basic_node content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view basic_node revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

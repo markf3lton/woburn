@@ -1,0 +1,19 @@
+uuid: 3a74a1f7-9626-4c2d-83e2-4e21c2835844
+langcode: en
+status: true
+dependencies: {  }
+id: basic_node_reviewer
+label: 'Basic node reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any basic_node content'
+  - 'edit any basic_node content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

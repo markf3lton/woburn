@@ -1,0 +1,14 @@
+uuid: fa464a96-ad30-4993-ab4d-6117159cfcdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.basic_node_reviewer
+  module:
+    - user
+id: user_add_role_action.basic_node_reviewer
+label: 'Add the Basic node reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: basic_node_reviewer

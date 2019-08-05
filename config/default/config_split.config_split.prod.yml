@@ -1,0 +1,17 @@
+uuid: 43318d70-3246-4919-9318-0c3ea895e062
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+folder: ../config/env/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - acquia_connector.settings
+  - system.performance
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,14 @@
+uuid: d3674bd4-b621-4ccf-9a43-ac072584199d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.basic_node_creator
+  module:
+    - user
+id: user_remove_role_action.basic_node_creator
+label: 'Remove the Basic node creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: basic_node_creator
