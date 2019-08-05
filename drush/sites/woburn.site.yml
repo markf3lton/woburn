@@ -4,3 +4,38 @@ local:
     host: local.woburn.com
     user: vagrant
     ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
+
+# The following aliases were downloaded from Acquia Cloud (user account credentials > download drush 9).
+# Application 'woburn', environment 'dev'.
+dev:
+  root: /var/www/html/woburn.dev/docroot
+  ac-site: woburn
+  ac-env: dev
+  ac-realm: devcloud
+  uri: woburnvjylpw8wno.devcloud.acquia-sites.com
+  dev.livedev:
+    parent: '@woburn.dev'
+    root: /mnt/gfs/woburn.dev/livedev/docroot
+  host: woburnvjylpw8wno.ssh.devcloud.acquia-sites.com
+  user: woburn.dev
+  paths:
+    drush-script: drush9
+
+
+# Application 'woburn', environment 'test'.
+test:
+  root: /var/www/html/woburn.test/docroot
+  ac-site: woburn
+  ac-env: test
+  ac-realm: devcloud
+  uri: woburnrxlpde88hl.devcloud.acquia-sites.com
+  test.livedev:
+    parent: '@woburn.test'
+    root: /mnt/gfs/woburn.test/livedev/docroot
+  host: woburnrxlpde88hl.ssh.devcloud.acquia-sites.com
+  user: woburn.test
+  paths:
+    drush-script: drush9
+
+
+
