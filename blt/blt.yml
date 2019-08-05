@@ -1,16 +1,16 @@
 project:
   machine_name: woburn
   prefix: BLT
-  human_name: 'BLT Woburn'
+  human_name: 'BLT Woburn Install'
   profile:
     name: lightning
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
 git:
-  default_branch: develop
+  default_branch: master
   remotes:
-    - 'woburn@svn-6689.devcloud.hosting.acquia.com:woburn.git'
+    - woburn@svn-6689.devcloud.hosting.acquia.com:woburn.git
 deploy:
   tag_source: true
 drush:
